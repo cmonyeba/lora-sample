@@ -1,0 +1,7 @@
+config LORA_MODE
+	bool "Set LoRa Radio to TX/RX"
+	help
+	  This option compiles in the correct code.
+	  TRUE - Tx and FALSE - Rx
+
+source "Kconfig.zephyr"
